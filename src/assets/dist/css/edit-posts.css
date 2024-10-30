@@ -1,0 +1,36 @@
+.column-dws-internal-comments .post-com-count-wrapper {
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.column-dws-internal-comments .post-com-count {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+}
+.column-dws-internal-comments .post-com-count:after {
+  content: "";
+  display: block;
+  margin-left: 8px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #646970;
+  border-right: 5px solid transparent;
+}
+.column-dws-internal-comments .post-com-count .comment-count {
+  box-sizing: border-box;
+  display: block;
+  padding: 0 8px;
+  min-width: 24px;
+  height: 2em;
+  border-radius: 5px;
+  background-color: #646970;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.9090909;
+  text-align: center;
+}
+.column-dws-internal-comments a.post-com-count:hover .comment-count {
+  background-color: #2271b1;
+}
+
+/*# sourceMappingURL=edit-posts.css.map */

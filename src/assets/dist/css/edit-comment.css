@@ -1,0 +1,8 @@
+body.dws-internal-comment #namediv, body.dws-internal-comment .misc-pub-comment-status, body.dws-internal-comment .misc-pub-curtime {
+  display: none;
+}
+body.dws-internal-comment:not(.dws-can-trash) #delete-action {
+  display: none;
+}
+
+/*# sourceMappingURL=edit-comment.css.map */

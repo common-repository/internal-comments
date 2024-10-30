@@ -1,0 +1,332 @@
+# Translation of Internal Comments in Romanian
+# This file is distributed under the same license as the Internal Comments package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-14 20:43:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ro\n"
+"Project-Id-Version: Internal Comments\n"
+
+#: src/includes/Settings/PluginSettings.php:60
+msgctxt "settings heading"
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/includes/Settings/GeneralSettings.php:60
+msgctxt "settings heading"
+msgid "General"
+msgstr "General"
+
+#. translators: internal comment ID
+#: src/includes/Comments.php:158
+msgid "Failed to delete internal comment %s"
+msgstr "Ștergerea comentariului intern %s a eșuat"
+
+#: src/includes/Ajax.php:77
+msgid "Comment text is empty."
+msgstr "Textul comentariului este gol."
+
+#: src/includes/Comments/PrivateComments.php:177
+#: src/includes/Comments/PrivateComments.php:184
+msgctxt "is private comment"
+msgid "No"
+msgstr "Nu"
+
+#: src/includes/Comments/PrivateComments.php:173
+#: src/includes/Comments/PrivateComments.php:182
+msgctxt "is private comment"
+msgid "Yes"
+msgstr "Da"
+
+#. Author URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com"
+msgstr "https://www.deep-web-solutions.com"
+
+#. Author of the plugin/theme
+msgid "Deep Web Solutions"
+msgstr "Deep Web Solutions"
+
+#. Description of the plugin/theme
+msgid "A WordPress plugin for administrators and other users with admin area access to post private admin-side comments to any registered post type."
+msgstr "Un modul WordPress pentru administratori și alți utilizatori cu acces la zona de administrare pentru a posta comentarii private pe partea de administrare la orice tip de articol înregistrat."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com/plugins/internal-comments/"
+msgstr "https://www.deep-web-solutions.com/plugins/internal-comments/"
+
+#. translators: %s: Plugin name.
+#: bootstrap.php:49
+msgid "It seems like <strong>%s</strong> is corrupted. Please reinstall!"
+msgstr "Se pare că <strong>%s</strong> este corupt. Vă rugăm să reinstalați!"
+
+#: src/includes/Settings/GeneralSettings.php:122
+msgid "Visible only to administrators and the original poster."
+msgstr "Vizibil doar pentru administratori și pentru autorul original al mesajului."
+
+#: src/includes/Settings/GeneralSettings.php:112
+msgid "Allow private comments?"
+msgstr "Permiteți comentarii private?"
+
+#: src/includes/Settings/PluginSettings.php:99
+msgid "Remove all plugin settings and all posted internal comments permanently when removing the plugin. This action is irreversible."
+msgstr "A se șțerge toate setările plugin-ului și toate comentariile interne postate permanent la eliminarea plugin-ului. Această acțiune este ireversibilă."
+
+#: src/includes/Settings/PluginSettings.php:89
+msgid "Remove all data on uninstallation?"
+msgstr "Șterge toate datele la dezinstalare?"
+
+#: src/includes/Settings/GeneralSettings.php:89
+msgid "Post Types that support internal comments"
+msgstr "Tipuri de posturi care acceptă comentarii interne"
+
+#: src/includes/Settings.php:68
+msgid "Internal Comments Settings"
+msgstr "Setări Comentarii Interne"
+
+#: src/includes/Comments/PrivateComments.php:167
+msgid "Is private:"
+msgstr "Este privat:"
+
+#: src/includes/Plugin.php:98
+msgid "Premium support"
+msgstr "Suport Premium"
+
+#: src/includes/Plugin.php:98
+msgid "Visit premium support forums"
+msgstr "Vizitați forumurile de asistență premium"
+
+#: src/includes/Plugin.php:97
+msgid "Account"
+msgstr "Cont"
+
+#: src/includes/Plugin.php:97
+msgid "Visit your account area"
+msgstr "Vizitați zona contului dvs"
+
+#: src/includes/Plugin.php:93
+msgid "Contact us"
+msgstr "Contact"
+
+#: src/includes/Plugin.php:93
+msgid "Send us an inquiry"
+msgstr "Trimiteți-ne o întrebare"
+
+#: src/includes/Plugin.php:88
+msgid "Community support"
+msgstr "Ajutor de la comunitate"
+
+#: src/includes/Plugin.php:88
+msgid "Visit community forums"
+msgstr "Vizitează forumurile Comunităţii"
+
+#: src/includes/Plugin.php:70
+msgid "Upgrade"
+msgstr "Actualizați"
+
+#: src/includes/Plugin.php:70
+msgid "Upgrade for premium features"
+msgstr "Cumpără licență pentru funcții premium"
+
+#: src/includes/Plugin.php:66
+msgid "Settings"
+msgstr "Setări"
+
+#: src/includes/Plugin.php:66
+msgid "View settings"
+msgstr "Vizualizați setările"
+
+#. translators: %s: Number of comments.
+#: src/includes/Output/WPTable.php:121
+msgid "%s internal comment"
+msgid_plural "%s internal comments"
+msgstr[0] "%s comentariu intern"
+msgstr[1] "%s comentarii interne"
+msgstr[2] "%s comentarii interne"
+
+#: src/includes/Output/WPTable.php:115
+msgid "No internal comments"
+msgstr "Nu există comentarii interne"
+
+#. translators: Number of replies.
+#: src/views/premium/html-ic-tooltip.php:22
+#: src/views/premium/html-ic-tooltip.php:26
+msgid "(has %s reply)"
+msgid_plural "(has %s replies)"
+msgstr[0] "(are %s răspuns)"
+msgstr[1] "(are %s răspunsuri)"
+msgstr[2] "(are %s răspunsuri)"
+
+#. translators: 1: Comment date. 2: Comment author.
+#: src/views/premium/html-ic-tooltip.php:18
+msgid "added on %1$s by %2$s"
+msgstr "adăugat pe %1$s de către %2$s"
+
+#: src/includes/Output/WPTable.php:214
+msgid "Loading &hellip;"
+msgstr "Se încarcă &hellip;"
+
+#: src/views/html-ic-edit-form.php:27
+msgid "Save comment"
+msgstr "Salvați comentariul"
+
+#: src/views/html-ic-edit-form.php:18
+msgid "Edit your comment here &hellip;"
+msgstr "Editați comentariul dvs. aici &hellip;"
+
+#: src/views/html-ic-edit-form.php:16
+msgid "Edit internal comment"
+msgstr "Editează comentariu intern"
+
+#: src/views/html-ic-edit-form.php:24
+#: src/views/premium/html-ic-reply-form.php:24
+msgid "Cancel"
+msgstr "Anulează"
+
+#: src/views/premium/html-ic-reply-form.php:16
+msgid "Reply to internal comment"
+msgstr "Răspunde la comentariul intern"
+
+#: src/includes/Comments/ReplyComments.php:168
+#: src/views/premium/html-ic-reply-form.php:27
+msgid "Post reply"
+msgstr "Postează răspuns"
+
+#: src/includes/Comments/PrivateComments.php:115
+msgid "Visible only to you and administrators"
+msgstr "Vizibil doar pentru dumneavoastră și pentru administratori"
+
+#: src/includes/Comments/PrivateComments.php:114
+msgid "Mark as private"
+msgstr "Marchează ca și privat"
+
+#: src/views/html-comments-list.php:32
+msgid "Be the first to post one!"
+msgstr "Fii primul care postează unul!"
+
+#. translators: Post type singular name.
+#: src/views/html-comments-list.php:25
+msgid "There are no internal comments on this %s yet."
+msgstr "Nu există încă niciun comentariu intern cu privire la acest %s."
+
+#: src/views/html-single-comment.php:50
+msgid "Move to Trash"
+msgstr "Sterge"
+
+#: src/views/html-single-comment.php:48
+msgid "Delete"
+msgstr "Șterge"
+
+#: src/views/html-single-comment.php:42
+msgid "Edit comment"
+msgstr "Modificati acest comentariu"
+
+#. translators: 1: Formatted date. 2: Formatted time.
+#: src/views/html-single-comment.php:23
+msgid "Added on %1$s at %2$s by"
+msgstr "Adăugat pe %1$s la %2$s de către"
+
+#: src/includes/Output/MetaBox.php:215
+msgid "Post comment"
+msgstr "Posteaza comentariu"
+
+#: src/includes/Output/MetaBox.php:209
+#: src/views/premium/html-ic-reply-form.php:18
+msgid "Write your comment here &hellip;"
+msgstr "Scrieți comentariul dumneavoastră aici &hellip;"
+
+#: src/includes/Output/MetaBox.php:207
+msgid "New internal comment"
+msgstr "Comentariu intern nou"
+
+#: src/includes/Ajax.php:70 src/includes/Ajax.php:113
+#: src/includes/Output/MetaBox.php:164
+msgid "Post ID is invalid."
+msgstr "ID-ul postului nu este valid."
+
+#. Plugin Name of the plugin/theme
+msgid "Internal Comments"
+msgstr "Comentarii interne"
+
+#: src/includes/Output/MetaBox.php:134
+msgid "You cannot post an empty internal comment."
+msgstr "Nu puteți posta un comentariu intern gol."
+
+#. translators: 1: Formatted date. 2: Formatted time.
+#: src/includes/Output/Revisions.php:163
+msgid "Changed on %1$s at %2$s by"
+msgstr "Modificat pe %1$s la %2$s de către"
+
+#: src/includes/Output/Revisions.php:143
+msgid "No revisions history is known."
+msgstr "Nu se cunoaște niciun istoric al revizuirilor."
+
+#: src/includes/Output/Revisions.php:67
+msgid "Revision history"
+msgstr "Istoric de revizii"
+
+#: src/includes/Ajax.php:209
+msgid "Failed to trash comment. Please try again!"
+msgstr "Nu s-a reușit aruncarea la gunoi a comentariului. Vă rugăm să încercați din nou!"
+
+#: src/includes/Ajax.php:203
+msgid "You don't have the necessary permissions to trash this comment."
+msgstr "Nu aveți permisiunile necesare pentru a șterge acest comentariu."
+
+#: src/includes/Ajax.php:182
+msgid "Failed to update comment. Please try again!"
+msgstr "Nu s-a reușit actualizarea comentariului. Vă rugăm să încercați din nou!"
+
+#: src/includes/Ajax.php:167
+msgid "You don't have the necessary permissions to edit this comment."
+msgstr "Nu aveți permisiunile necesare pentru a edita acest comentariu."
+
+#: src/includes/Ajax.php:147
+msgid "You don't have the necessary permissions to view this comment."
+msgstr "Nu aveți permisiunile necesare pentru a vedea acest comentariu."
+
+#: src/includes/Ajax.php:139 src/includes/Ajax.php:161
+#: src/includes/Ajax.php:197
+msgid "Invalid comment ID."
+msgstr "ID comentariu invalid."
+
+#: src/includes/Ajax.php:96
+msgid "Failed to insert comment into the database. Please try again!"
+msgstr "Nu s-a reușit introducerea comentariului în baza de date. Vă rugăm să încercați din nou!"
+
+#: src/includes/Ajax.php:82
+msgid "You don't have the necessary permissions to add this comment."
+msgstr "Nu aveți permisiunile necesare pentru a adăuga acest comentariu."
+
+#: src/includes/Ajax.php:72
+msgid "Invalid parent comment ID"
+msgstr "ID invalid pentru comentariul părinte"
+
+#: src/includes/Ajax.php:68 src/includes/Ajax.php:108 src/includes/Ajax.php:134
+#: src/includes/Ajax.php:159 src/includes/Ajax.php:195
+msgid "Your session has expired. Please reload the page and try again!"
+msgstr "Sesiunea dvs. a expirat. Vă rugăm să reîncărcați pagina și să încercați din nou!"
+
+#. translators: Error message provided by JavaScript.
+#: src/includes/Ajax.php:240
+msgid "Request failed with the following message: %error_msg%. Please try again!"
+msgstr "Cererea a eșuat cu următorul mesaj: %error_msg%. Vă rugăm să încercați din nou!"
+
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:88
+msgid "If you need to upgrade your version of PHP you can ask your hosting company for assistance, and if you need help upgrading WordPress you can refer to <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">the Codex</a>."
+msgstr "Dacă aveți nevoie să vă actualizați versiunea de PHP, puteți solicita asistență companiei dvs. de găzduire și, dacă aveți nevoie de ajutor pentru actualizarea WordPress, puteți consulta <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">Codex-ul</a> oficial."
+
+#. translators: PHP version
+#. translators: WordPress version
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:59
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:71
+msgid "You're running version %s"
+msgstr "Rulați versiunea %s"
+
+#. translators: 1. Component name, 2. Component version
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:36
+msgid "<strong>%1$s (%2$s)</strong> has encountered an error. Your environment doesn't meet all the system requirements listed below:"
+msgstr "<strong>%1$s (%2$s)</strong> a întâmpinat o eroare. Mediul dvs. nu îndeplinește toate cerințele de sistem enumerate mai jos:"

@@ -1,0 +1,85 @@
+#dws-internal-comments {
+  overflow: hidden;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment {
+  padding: 0 10px;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__content {
+  background-color: #efefef;
+  padding: 10px;
+  position: relative;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__content p {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-width: 10px 10px 0 0;
+  border-style: solid;
+  border-color: #efefef transparent;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__other {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0;
+  font-size: 11px;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__meta {
+  color: #999;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__actions a {
+  display: inline-block;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__actions a:not(:first-of-type) {
+  margin-left: 15px;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment__actions a.trash-internal-comment {
+  color: #a00;
+}
+#dws-internal-comments .dws-internal-comments .dws-internal-comment-replies {
+  padding-left: 15px;
+}
+#dws-internal-comments .dws-internal-comments-inline-action > div {
+  margin: 1em 0;
+}
+#dws-internal-comments .dws-internal-comments-inline-action label {
+  display: block;
+  padding: 0;
+  margin: 0 0 7px;
+  font-weight: bold;
+}
+#dws-internal-comments .dws-internal-comments-inline-action textarea {
+  width: 100%;
+  margin: 0;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.4;
+  resize: vertical;
+}
+#dws-internal-comments .dws-internal-comments-inline-action__actions {
+  text-align: right;
+}
+#dws-internal-comments .dws-internal-comments-overlay {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(204, 204, 204, 0.5);
+  z-index: 2;
+  cursor: progress;
+}
+
+/*# sourceMappingURL=metabox.css.map */

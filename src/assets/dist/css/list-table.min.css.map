@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../dev/scss/list-table.scss","list-table.css"],"names":[],"mappings":"AAEI,sDACE,YCDN","file":"list-table.min.css","sourcesContent":[null,"#the-comment-list tr.dws_internal + #replyrow #edithead {\n  display: none;\n}\n\n/*# sourceMappingURL=list-table.css.map */\n"]}

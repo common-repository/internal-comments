@@ -1,0 +1,11 @@
+body.dws-internal-comment {
+  #namediv, .misc-pub-comment-status, .misc-pub-curtime {
+    display: none;
+  }
+
+  &:not(.dws-can-trash) {
+    #delete-action {
+      display: none;
+    }
+  }
+}

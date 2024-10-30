@@ -1,0 +1,330 @@
+# Translation of Internal Comments in German
+# This file is distributed under the same license as the Internal Comments package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-14 20:43:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: de\n"
+"Project-Id-Version: Internal Comments\n"
+
+#: src/includes/Settings/PluginSettings.php:60
+msgctxt "settings heading"
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/includes/Settings/GeneralSettings.php:60
+msgctxt "settings heading"
+msgid "General"
+msgstr "Allgemein"
+
+#. translators: internal comment ID
+#: src/includes/Comments.php:158
+msgid "Failed to delete internal comment %s"
+msgstr "Interner Kommentar %s konnte nicht gelöscht werden"
+
+#: src/includes/Ajax.php:77
+msgid "Comment text is empty."
+msgstr "Der Kommentartext ist leer."
+
+#: src/includes/Comments/PrivateComments.php:177
+#: src/includes/Comments/PrivateComments.php:184
+msgctxt "is private comment"
+msgid "No"
+msgstr "Nein"
+
+#: src/includes/Comments/PrivateComments.php:173
+#: src/includes/Comments/PrivateComments.php:182
+msgctxt "is private comment"
+msgid "Yes"
+msgstr "Ja"
+
+#. Author URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com"
+msgstr "https://www.deep-web-solutions.com"
+
+#. Author of the plugin/theme
+msgid "Deep Web Solutions"
+msgstr "Deep Web Solutions"
+
+#. Description of the plugin/theme
+msgid "A WordPress plugin for administrators and other users with admin area access to post private admin-side comments to any registered post type."
+msgstr "Ein WordPress-Plugin für Administratoren und andere Benutzer mit Zugriff auf den Admin-Bereich, um private Kommentare auf der Admin-Seite zu jedem registrierten Beitragstyp zu veröffentlichen."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com/plugins/internal-comments/"
+msgstr "https://www.deep-web-solutions.com/plugins/internal-comments/"
+
+#. translators: %s: Plugin name.
+#: bootstrap.php:49
+msgid "It seems like <strong>%s</strong> is corrupted. Please reinstall!"
+msgstr "Es scheint, dass <strong>%s</strong> beschädigt ist. Bitte erneut installieren!"
+
+#: src/includes/Settings/GeneralSettings.php:122
+msgid "Visible only to administrators and the original poster."
+msgstr "Sichtbar nur für Administratoren und den ursprünglichen Poster."
+
+#: src/includes/Settings/GeneralSettings.php:112
+msgid "Allow private comments?"
+msgstr "Private Kommentare zulassen?"
+
+#: src/includes/Settings/PluginSettings.php:99
+msgid "Remove all plugin settings and all posted internal comments permanently when removing the plugin. This action is irreversible."
+msgstr "Alle Plugin-Einstellungen und alle geposteten internen Kommentare dauerhaft löschen wenn das Plugin entfernt wird. Diese Aktion ist nicht umkehrbar."
+
+#: src/includes/Settings/PluginSettings.php:89
+msgid "Remove all data on uninstallation?"
+msgstr "Alle Daten bei Deinstallation entfernen?"
+
+#: src/includes/Settings/GeneralSettings.php:89
+msgid "Post Types that support internal comments"
+msgstr "Beitragstypen, die interne Kommentare unterstützen"
+
+#: src/includes/Settings.php:68
+msgid "Internal Comments Settings"
+msgstr "Interne Kommentare Einstellungen"
+
+#: src/includes/Comments/PrivateComments.php:167
+msgid "Is private:"
+msgstr "Ist privat:"
+
+#: src/includes/Plugin.php:98
+msgid "Premium support"
+msgstr "Premium Support"
+
+#: src/includes/Plugin.php:98
+msgid "Visit premium support forums"
+msgstr "Premium-Support-Foren besuchen"
+
+#: src/includes/Plugin.php:97
+msgid "Account"
+msgstr "Konto"
+
+#: src/includes/Plugin.php:97
+msgid "Visit your account area"
+msgstr "Besuchen Sie Ihren Kontobereich"
+
+#: src/includes/Plugin.php:93
+msgid "Contact us"
+msgstr "Kontaktieren Sie uns"
+
+#: src/includes/Plugin.php:93
+msgid "Send us an inquiry"
+msgstr "Senden Sie uns eine Anfrage"
+
+#: src/includes/Plugin.php:88
+msgid "Community support"
+msgstr "Community-Support"
+
+#: src/includes/Plugin.php:88
+msgid "Visit community forums"
+msgstr "Besuchen Sie das Community Forum"
+
+#: src/includes/Plugin.php:70
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: src/includes/Plugin.php:70
+msgid "Upgrade for premium features"
+msgstr "Upgrade für Premium-Funktionen"
+
+#: src/includes/Plugin.php:66
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/includes/Plugin.php:66
+msgid "View settings"
+msgstr "Einstellungen ansehen"
+
+#. translators: %s: Number of comments.
+#: src/includes/Output/WPTable.php:121
+msgid "%s internal comment"
+msgid_plural "%s internal comments"
+msgstr[0] "%s interner Kommentar"
+msgstr[1] "%s interne Kommentare"
+
+#: src/includes/Output/WPTable.php:115
+msgid "No internal comments"
+msgstr "Keine internen Kommentare"
+
+#. translators: Number of replies.
+#: src/views/premium/html-ic-tooltip.php:22
+#: src/views/premium/html-ic-tooltip.php:26
+msgid "(has %s reply)"
+msgid_plural "(has %s replies)"
+msgstr[0] "(hat %s Antwort)"
+msgstr[1] "(hat %s Antworten)"
+
+#. translators: 1: Comment date. 2: Comment author.
+#: src/views/premium/html-ic-tooltip.php:18
+msgid "added on %1$s by %2$s"
+msgstr "hinzugefügt am %1$s von %2$s"
+
+#: src/includes/Output/WPTable.php:214
+msgid "Loading &hellip;"
+msgstr "L&auml;dt &hellip;"
+
+#: src/views/html-ic-edit-form.php:27
+msgid "Save comment"
+msgstr "Kommentar speichern"
+
+#: src/views/html-ic-edit-form.php:18
+msgid "Edit your comment here &hellip;"
+msgstr "Bearbeiten Sie Ihren Kommentar hier &hellip;"
+
+#: src/views/html-ic-edit-form.php:16
+msgid "Edit internal comment"
+msgstr "Internen Kommentar bearbeiten"
+
+#: src/views/html-ic-edit-form.php:24
+#: src/views/premium/html-ic-reply-form.php:24
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/views/premium/html-ic-reply-form.php:16
+msgid "Reply to internal comment"
+msgstr "Internen Kommentar beantworten"
+
+#: src/includes/Comments/ReplyComments.php:168
+#: src/views/premium/html-ic-reply-form.php:27
+msgid "Post reply"
+msgstr "Antwort veröffentlichen"
+
+#: src/includes/Comments/PrivateComments.php:115
+msgid "Visible only to you and administrators"
+msgstr "Sichtbar nur für Sie und Administratoren"
+
+#: src/includes/Comments/PrivateComments.php:114
+msgid "Mark as private"
+msgstr "Als Privat markieren"
+
+#: src/views/html-comments-list.php:32
+msgid "Be the first to post one!"
+msgstr "Seien Sie der Erste, der einen Kommentar schreibt!"
+
+#. translators: Post type singular name.
+#: src/views/html-comments-list.php:25
+msgid "There are no internal comments on this %s yet."
+msgstr "Es gibt noch keine internen Kommentare zu diesem %s."
+
+#: src/views/html-single-comment.php:50
+msgid "Move to Trash"
+msgstr "In den Papierkorb verschieben"
+
+#: src/views/html-single-comment.php:48
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/views/html-single-comment.php:42
+msgid "Edit comment"
+msgstr "Kommentar bearbeiten"
+
+#. translators: 1: Formatted date. 2: Formatted time.
+#: src/views/html-single-comment.php:23
+msgid "Added on %1$s at %2$s by"
+msgstr "Hinzugefügt am %1$s um %2$s von"
+
+#: src/includes/Output/MetaBox.php:215
+msgid "Post comment"
+msgstr "Kommentar absenden"
+
+#: src/includes/Output/MetaBox.php:209
+#: src/views/premium/html-ic-reply-form.php:18
+msgid "Write your comment here &hellip;"
+msgstr "Schreiben Sie hier Ihren Kommentar &hellip;"
+
+#: src/includes/Output/MetaBox.php:207
+msgid "New internal comment"
+msgstr "Neuer interner Kommentar"
+
+#: src/includes/Ajax.php:70 src/includes/Ajax.php:113
+#: src/includes/Output/MetaBox.php:164
+msgid "Post ID is invalid."
+msgstr "Die Beitrags-ID ist ungültig."
+
+#. Plugin Name of the plugin/theme
+msgid "Internal Comments"
+msgstr "Interne Kommentare"
+
+#: src/includes/Output/MetaBox.php:134
+msgid "You cannot post an empty internal comment."
+msgstr "Sie können keinen leeren internen Kommentar abgeben."
+
+#. translators: 1: Formatted date. 2: Formatted time.
+#: src/includes/Output/Revisions.php:163
+msgid "Changed on %1$s at %2$s by"
+msgstr "Geändert am %1$s um %2$s von"
+
+#: src/includes/Output/Revisions.php:143
+msgid "No revisions history is known."
+msgstr "Es ist keine Revisionshistorie bekannt."
+
+#: src/includes/Output/Revisions.php:67
+msgid "Revision history"
+msgstr "Revisionshistorie"
+
+#: src/includes/Ajax.php:209
+msgid "Failed to trash comment. Please try again!"
+msgstr "Fehler beim Löschen des Kommentars. Bitte versuchen Sie es erneut!"
+
+#: src/includes/Ajax.php:203
+msgid "You don't have the necessary permissions to trash this comment."
+msgstr "Sie haben nicht die erforderlichen Berechtigungen, um diesen Kommentar zu löschen."
+
+#: src/includes/Ajax.php:182
+msgid "Failed to update comment. Please try again!"
+msgstr "Kommentar konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut!"
+
+#: src/includes/Ajax.php:167
+msgid "You don't have the necessary permissions to edit this comment."
+msgstr "Sie haben nicht die erforderlichen Rechte, um diesen Kommentar zu bearbeiten."
+
+#: src/includes/Ajax.php:147
+msgid "You don't have the necessary permissions to view this comment."
+msgstr "Sie haben nicht die erforderlichen Rechte, um diesen Kommentar zu sehen."
+
+#: src/includes/Ajax.php:139 src/includes/Ajax.php:161
+#: src/includes/Ajax.php:197
+msgid "Invalid comment ID."
+msgstr "Ungültige Kommentar-ID."
+
+#: src/includes/Ajax.php:96
+msgid "Failed to insert comment into the database. Please try again!"
+msgstr "Der Kommentar konnte nicht in die Datenbank eingefügt werden. Bitte versuchen Sie es erneut!"
+
+#: src/includes/Ajax.php:82
+msgid "You don't have the necessary permissions to add this comment."
+msgstr "Sie haben nicht die erforderlichen Berechtigungen, um diesen Kommentar hinzuzufügen."
+
+#: src/includes/Ajax.php:72
+msgid "Invalid parent comment ID"
+msgstr "Ungültige übergeordnete Kommentar-ID"
+
+#: src/includes/Ajax.php:68 src/includes/Ajax.php:108 src/includes/Ajax.php:134
+#: src/includes/Ajax.php:159 src/includes/Ajax.php:195
+msgid "Your session has expired. Please reload the page and try again!"
+msgstr "Ihre Sitzung ist abgelaufen. Bitte laden Sie die Seite neu und versuchen Sie es erneut!"
+
+#. translators: Error message provided by JavaScript.
+#: src/includes/Ajax.php:240
+msgid "Request failed with the following message: %error_msg%. Please try again!"
+msgstr "Die Anfrage ist mit der folgenden Meldung fehlgeschlagen: %error_msg%. Bitte versuchen Sie es erneut!"
+
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:88
+msgid "If you need to upgrade your version of PHP you can ask your hosting company for assistance, and if you need help upgrading WordPress you can refer to <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">the Codex</a>."
+msgstr "Wenn Sie Ihre PHP-Version aktualisieren müssen, können Sie Ihre Hosting-Firma um Hilfe bitten, und wenn Sie Hilfe bei der Aktualisierung von WordPress benötigen, können Sie sich an den <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">Codex</a> wenden."
+
+#. translators: PHP version
+#. translators: WordPress version
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:59
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:71
+msgid "You're running version %s"
+msgstr "Sie verwenden die Version %s"
+
+#. translators: 1. Component name, 2. Component version
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:36
+msgid "<strong>%1$s (%2$s)</strong> has encountered an error. Your environment doesn't meet all the system requirements listed below:"
+msgstr "<strong>%1$s (%2$s)</strong> ist auf einen Fehler gestoßen. Ihre Umgebung erfüllt nicht alle der unten aufgeführten Systemanforderungen:"
